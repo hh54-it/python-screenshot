@@ -4,7 +4,7 @@ from PIL import ImageGrab
 
 class ScreenShot(object):
     """
-    Object representing the current screen
+    Object representing the current screen.
     """
     def __init__(self, resize=(800,450), file_type="png"):
         self.resize = resize
